@@ -33,16 +33,6 @@ $this->title = 'My Yii Application';
             </ul>
         </div>
     </div>
-    <div class="sub-nav">
-        <ul class="cc">
-            <li><a href="#">曼联</a></li>
-            <li><a href="#">曼联</a></li>
-            <li><a href="#">曼联</a></li>
-            <li><a href="#">曼联</a></li>
-            <li><a href="#">曼联</a></li>
-            <li><a href="#">曼联</a></li>
-        </ul>
-    </div>
     <div class="container cc">
         <div class="container-left pad20">
             <div class="sort">

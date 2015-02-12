@@ -138,11 +138,11 @@ body{
     float:left;
 }
 .item .pic img{
-    width:80px;
+    width:100px;
     height:80px;
 }
 .item .news{
-    margin-left:100px;
+    margin-left:110px;
 }
 .item .title{
     font-size: 14px;
