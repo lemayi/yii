@@ -29,7 +29,7 @@ $this->title = 'My Yii Application';
             </ul>
             <ul class="right cc">
                 <li><a href="#">注册</a></li>
-                <li><a href="#">登录</a></li>
+                <li><a href="/site/login">登录</a></li>
             </ul>
         </div>
     </div>
@@ -70,7 +70,7 @@ $this->title = 'My Yii Application';
         <div class="container-right">
             <div class="account-box">
                 <span>还没有注册？</span>
-                <a class="btn" href="#">立即注册</a>
+                <a class="btn" href="/site/signup">立即注册</a>
             </div>
         </div>
     </div>

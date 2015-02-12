@@ -57,12 +57,12 @@ form{
 }
 .account-box a{
     display: block;
-    background-color: #2e9f54;
+    background-color: #009a61;
     color: #fff;
     margin: 30px auto 0 auto;
     width: 200px;
-    height: 45px;
-    line-height: 50px;
+    height: 42px;
+    line-height: 42px;
     vertical-align: middle;
     border-radius: 4px;
 }

@@ -55,7 +55,7 @@ $this->title = 'My Yii Application';
                 </div>
                 <div class="row">
                     <label for="password">密码</label>
-                    <input name="password" type="text">
+                    <input name="password" type="password">
                     <div class="error">测试一下</div>
                 </div>
                 <div class="row">
