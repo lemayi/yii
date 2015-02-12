@@ -1,0 +1,1259 @@
+2015-02-05 14:47:29 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in E:\yii\vendor\yiisoft\yii2\web\Request.php:187
+Stack trace:
+#0 E:\yii\vendor\yiisoft\yii2\web\Application.php(75): yii\web\Request->resolve()
+#1 E:\yii\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 E:\yii\frontend\web\index.php(18): yii\base\Application->run()
+#3 {main}
+2015-02-05 14:47:29 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'site/contact'
+]
+
+$_COOKIE = [
+    '_csrf' => '6939de56ec32c23caa3e685adae3880811430b9699484068f6e2c0317e4985f3s:32:\"kyUgtigTbSteX8edQqHIHzbXlMKOvSRq\";'
+    'PHPSESSID' => '5dr0t131jn21o4vvmln9ri75q0'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'jebaaia'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'yii.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.95 Safari/537.36'
+    'HTTP_REFERER' => 'http://yii.com/index.php?r=site%2Fabout'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6,zh-TW;q=0.4'
+    'HTTP_COOKIE' => '_csrf=6939de56ec32c23caa3e685adae3880811430b9699484068f6e2c0317e4985f3s%3A32%3A%22kyUgtigTbSteX8edQqHIHzbXlMKOvSRq%22%3B; PHPSESSID=5dr0t131jn21o4vvmln9ri75q0'
+    'PATH' => 'C:\\Program Files\\Git\\git-cheetah\\..\\bin;C:\\Program Files\\Git\\git-cheetah\\..\\bin;C:\\Program Files\\Git\\git-cheetah\\..\\bin;C:\\Program Files\\Git\\git-cheetah\\..\\bin;C:\\Program Files\\Git\\git-cheetah\\..\\bin;C:\\Program Files\\Common Files\\NetSarang;C:\\Python27\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files\\田客草屋\\桌面录像精灵\\Microsoft.VC80.CRT;C:\\Progra; Files\\田客草屋\\桌面录像精灵\\Microsoft.VC80.MFC;C:\\Python27;C:\\Python27\\Scripts;C:\\xampp\\php;C:\\Documents and Settings\\All Users\\Application Data\\ComposerSetup\\bin;C:\\xampp\\php;C:\\Python27\\Scripts;C:\\Documents and Settings\\Administrator\\Local Settings\\Application Data\\Kingsoft\\WPS Office\\9.1.0.4866\\office6'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Win32) OpenSSL/0.9.8y PHP/5.4.25 Server at yii.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Win32) OpenSSL/0.9.8y PHP/5.4.25'
+    'SERVER_NAME' => 'yii.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'E:/yii/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/yii/frontend/web'
+    'SERVER_ADMIN' => 'admin@yii.com'
+    'SCRIPT_FILENAME' => 'E:/yii/frontend/web/index.php'
+    'REMOTE_PORT' => '3491'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Fcontact'
+    'REQUEST_URI' => '/index.php?r=site%2Fcontact'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1423118849.14
+    'REQUEST_TIME' => 1423118849
+]
+2015-02-05 14:47:30 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in E:\yii\vendor\yiisoft\yii2\web\Request.php:187
+Stack trace:
+#0 E:\yii\vendor\yiisoft\yii2\web\Application.php(75): yii\web\Request->resolve()
+#1 E:\yii\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 E:\yii\frontend\web\index.php(18): yii\base\Application->run()
+#3 {main}
+2015-02-05 14:47:30 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    '_csrf' => '6939de56ec32c23caa3e685adae3880811430b9699484068f6e2c0317e4985f3s:32:\"kyUgtigTbSteX8edQqHIHzbXlMKOvSRq\";'
+    'PHPSESSID' => '5dr0t131jn21o4vvmln9ri75q0'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'jebaaia'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'yii.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.95 Safari/537.36'
+    'HTTP_REFERER' => 'http://yii.com/index.php?r=site%2Fcontact'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6,zh-TW;q=0.4'
+    'HTTP_COOKIE' => '_csrf=6939de56ec32c23caa3e685adae3880811430b9699484068f6e2c0317e4985f3s%3A32%3A%22kyUgtigTbSteX8edQqHIHzbXlMKOvSRq%22%3B; PHPSESSID=5dr0t131jn21o4vvmln9ri75q0'
+    'PATH' => 'C:\\Program Files\\Git\\git-cheetah\\..\\bin;C:\\Program Files\\Git\\git-cheetah\\..\\bin;C:\\Program Files\\Git\\git-cheetah\\..\\bin;C:\\Program Files\\Git\\git-cheetah\\..\\bin;C:\\Program Files\\Git\\git-cheetah\\..\\bin;C:\\Program Files\\Common Files\\NetSarang;C:\\Python27\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files\\田客草屋\\桌面录像精灵\\Microsoft.VC80.CRT;C:\\Progra; Files\\田客草屋\\桌面录像精灵\\Microsoft.VC80.MFC;C:\\Python27;C:\\Python27\\Scripts;C:\\xampp\\php;C:\\Documents and Settings\\All Users\\Application Data\\ComposerSetup\\bin;C:\\xampp\\php;C:\\Python27\\Scripts;C:\\Documents and Settings\\Administrator\\Local Settings\\Application Data\\Kingsoft\\WPS Office\\9.1.0.4866\\office6'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Win32) OpenSSL/0.9.8y PHP/5.4.25 Server at yii.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Win32) OpenSSL/0.9.8y PHP/5.4.25'
+    'SERVER_NAME' => 'yii.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'E:/yii/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/yii/frontend/web'
+    'SERVER_ADMIN' => 'admin@yii.com'
+    'SCRIPT_FILENAME' => 'E:/yii/frontend/web/index.php'
+    'REMOTE_PORT' => '3495'
+    'REDIRECT_URL' => '/site/about'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/site/about'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1423118850.921
+    'REQUEST_TIME' => 1423118850
+]
+2015-02-05 14:47:32 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in E:\yii\vendor\yiisoft\yii2\web\Request.php:187
+Stack trace:
+#0 E:\yii\vendor\yiisoft\yii2\web\Application.php(75): yii\web\Request->resolve()
+#1 E:\yii\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 E:\yii\frontend\web\index.php(18): yii\base\Application->run()
+#3 {main}
+2015-02-05 14:47:32 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    '_csrf' => '6939de56ec32c23caa3e685adae3880811430b9699484068f6e2c0317e4985f3s:32:\"kyUgtigTbSteX8edQqHIHzbXlMKOvSRq\";'
+    'PHPSESSID' => '5dr0t131jn21o4vvmln9ri75q0'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'jebaaia'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'yii.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.95 Safari/537.36'
+    'HTTP_REFERER' => 'http://yii.com/site/about'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6,zh-TW;q=0.4'
+    'HTTP_COOKIE' => '_csrf=6939de56ec32c23caa3e685adae3880811430b9699484068f6e2c0317e4985f3s%3A32%3A%22kyUgtigTbSteX8edQqHIHzbXlMKOvSRq%22%3B; PHPSESSID=5dr0t131jn21o4vvmln9ri75q0'
+    'PATH' => 'C:\\Program Files\\Git\\git-cheetah\\..\\bin;C:\\Program Files\\Git\\git-cheetah\\..\\bin;C:\\Program Files\\Git\\git-cheetah\\..\\bin;C:\\Program Files\\Git\\git-cheetah\\..\\bin;C:\\Program Files\\Git\\git-cheetah\\..\\bin;C:\\Program Files\\Common Files\\NetSarang;C:\\Python27\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files\\田客草屋\\桌面录像精灵\\Microsoft.VC80.CRT;C:\\Progra; Files\\田客草屋\\桌面录像精灵\\Microsoft.VC80.MFC;C:\\Python27;C:\\Python27\\Scripts;C:\\xampp\\php;C:\\Documents and Settings\\All Users\\Application Data\\ComposerSetup\\bin;C:\\xampp\\php;C:\\Python27\\Scripts;C:\\Documents and Settings\\Administrator\\Local Settings\\Application Data\\Kingsoft\\WPS Office\\9.1.0.4866\\office6'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Win32) OpenSSL/0.9.8y PHP/5.4.25 Server at yii.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Win32) OpenSSL/0.9.8y PHP/5.4.25'
+    'SERVER_NAME' => 'yii.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'E:/yii/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/yii/frontend/web'
+    'SERVER_ADMIN' => 'admin@yii.com'
+    'SCRIPT_FILENAME' => 'E:/yii/frontend/web/index.php'
+    'REMOTE_PORT' => '3494'
+    'REDIRECT_URL' => '/site/index'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/site/index'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1423118852.062
+    'REQUEST_TIME' => 1423118852
+]
+2015-02-05 14:47:32 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in E:\yii\vendor\yiisoft\yii2\web\Request.php:187
+Stack trace:
+#0 E:\yii\vendor\yiisoft\yii2\web\Application.php(75): yii\web\Request->resolve()
+#1 E:\yii\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 E:\yii\frontend\web\index.php(18): yii\base\Application->run()
+#3 {main}
+2015-02-05 14:47:32 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    '_csrf' => '6939de56ec32c23caa3e685adae3880811430b9699484068f6e2c0317e4985f3s:32:\"kyUgtigTbSteX8edQqHIHzbXlMKOvSRq\";'
+    'PHPSESSID' => '5dr0t131jn21o4vvmln9ri75q0'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'jebaaia'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'yii.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.95 Safari/537.36'
+    'HTTP_REFERER' => 'http://yii.com/site/index'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6,zh-TW;q=0.4'
+    'HTTP_COOKIE' => '_csrf=6939de56ec32c23caa3e685adae3880811430b9699484068f6e2c0317e4985f3s%3A32%3A%22kyUgtigTbSteX8edQqHIHzbXlMKOvSRq%22%3B; PHPSESSID=5dr0t131jn21o4vvmln9ri75q0'
+    'PATH' => 'C:\\Program Files\\Git\\git-cheetah\\..\\bin;C:\\Program Files\\Git\\git-cheetah\\..\\bin;C:\\Program Files\\Git\\git-cheetah\\..\\bin;C:\\Program Files\\Git\\git-cheetah\\..\\bin;C:\\Program Files\\Git\\git-cheetah\\..\\bin;C:\\Program Files\\Common Files\\NetSarang;C:\\Python27\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files\\田客草屋\\桌面录像精灵\\Microsoft.VC80.CRT;C:\\Progra; Files\\田客草屋\\桌面录像精灵\\Microsoft.VC80.MFC;C:\\Python27;C:\\Python27\\Scripts;C:\\xampp\\php;C:\\Documents and Settings\\All Users\\Application Data\\ComposerSetup\\bin;C:\\xampp\\php;C:\\Python27\\Scripts;C:\\Documents and Settings\\Administrator\\Local Settings\\Application Data\\Kingsoft\\WPS Office\\9.1.0.4866\\office6'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Win32) OpenSSL/0.9.8y PHP/5.4.25 Server at yii.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Win32) OpenSSL/0.9.8y PHP/5.4.25'
+    'SERVER_NAME' => 'yii.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'E:/yii/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/yii/frontend/web'
+    'SERVER_ADMIN' => 'admin@yii.com'
+    'SCRIPT_FILENAME' => 'E:/yii/frontend/web/index.php'
+    'REMOTE_PORT' => '3494'
+    'REDIRECT_URL' => '/site/about'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/site/about'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1423118852.671
+    'REQUEST_TIME' => 1423118852
+]
+2015-02-05 14:47:33 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in E:\yii\vendor\yiisoft\yii2\web\Request.php:187
+Stack trace:
+#0 E:\yii\vendor\yiisoft\yii2\web\Application.php(75): yii\web\Request->resolve()
+#1 E:\yii\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 E:\yii\frontend\web\index.php(18): yii\base\Application->run()
+#3 {main}
+2015-02-05 14:47:32 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    '_csrf' => '6939de56ec32c23caa3e685adae3880811430b9699484068f6e2c0317e4985f3s:32:\"kyUgtigTbSteX8edQqHIHzbXlMKOvSRq\";'
+    'PHPSESSID' => '5dr0t131jn21o4vvmln9ri75q0'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'jebaaia'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'yii.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.95 Safari/537.36'
+    'HTTP_REFERER' => 'http://yii.com/site/about'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6,zh-TW;q=0.4'
+    'HTTP_COOKIE' => '_csrf=6939de56ec32c23caa3e685adae3880811430b9699484068f6e2c0317e4985f3s%3A32%3A%22kyUgtigTbSteX8edQqHIHzbXlMKOvSRq%22%3B; PHPSESSID=5dr0t131jn21o4vvmln9ri75q0'
+    'PATH' => 'C:\\Program Files\\Git\\git-cheetah\\..\\bin;C:\\Program Files\\Git\\git-cheetah\\..\\bin;C:\\Program Files\\Git\\git-cheetah\\..\\bin;C:\\Program Files\\Git\\git-cheetah\\..\\bin;C:\\Program Files\\Git\\git-cheetah\\..\\bin;C:\\Program Files\\Common Files\\NetSarang;C:\\Python27\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files\\田客草屋\\桌面录像精灵\\Microsoft.VC80.CRT;C:\\Progra; Files\\田客草屋\\桌面录像精灵\\Microsoft.VC80.MFC;C:\\Python27;C:\\Python27\\Scripts;C:\\xampp\\php;C:\\Documents and Settings\\All Users\\Application Data\\ComposerSetup\\bin;C:\\xampp\\php;C:\\Python27\\Scripts;C:\\Documents and Settings\\Administrator\\Local Settings\\Application Data\\Kingsoft\\WPS Office\\9.1.0.4866\\office6'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Win32) OpenSSL/0.9.8y PHP/5.4.25 Server at yii.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Win32) OpenSSL/0.9.8y PHP/5.4.25'
+    'SERVER_NAME' => 'yii.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'E:/yii/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/yii/frontend/web'
+    'SERVER_ADMIN' => 'admin@yii.com'
+    'SCRIPT_FILENAME' => 'E:/yii/frontend/web/index.php'
+    'REMOTE_PORT' => '3495'
+    'REDIRECT_URL' => '/site/contact'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/site/contact'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1423118852.968
+    'REQUEST_TIME' => 1423118852
+]
+2015-02-05 14:47:33 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in E:\yii\vendor\yiisoft\yii2\web\Request.php:187
+Stack trace:
+#0 E:\yii\vendor\yiisoft\yii2\web\Application.php(75): yii\web\Request->resolve()
+#1 E:\yii\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 E:\yii\frontend\web\index.php(18): yii\base\Application->run()
+#3 {main}
+2015-02-05 14:47:33 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    '_csrf' => '6939de56ec32c23caa3e685adae3880811430b9699484068f6e2c0317e4985f3s:32:\"kyUgtigTbSteX8edQqHIHzbXlMKOvSRq\";'
+    'PHPSESSID' => '5dr0t131jn21o4vvmln9ri75q0'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'jebaaia'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'yii.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.95 Safari/537.36'
+    'HTTP_REFERER' => 'http://yii.com/site/contact'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6,zh-TW;q=0.4'
+    'HTTP_COOKIE' => '_csrf=6939de56ec32c23caa3e685adae3880811430b9699484068f6e2c0317e4985f3s%3A32%3A%22kyUgtigTbSteX8edQqHIHzbXlMKOvSRq%22%3B; PHPSESSID=5dr0t131jn21o4vvmln9ri75q0'
+    'PATH' => 'C:\\Program Files\\Git\\git-cheetah\\..\\bin;C:\\Program Files\\Git\\git-cheetah\\..\\bin;C:\\Program Files\\Git\\git-cheetah\\..\\bin;C:\\Program Files\\Git\\git-cheetah\\..\\bin;C:\\Program Files\\Git\\git-cheetah\\..\\bin;C:\\Program Files\\Common Files\\NetSarang;C:\\Python27\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files\\田客草屋\\桌面录像精灵\\Microsoft.VC80.CRT;C:\\Progra; Files\\田客草屋\\桌面录像精灵\\Microsoft.VC80.MFC;C:\\Python27;C:\\Python27\\Scripts;C:\\xampp\\php;C:\\Documents and Settings\\All Users\\Application Data\\ComposerSetup\\bin;C:\\xampp\\php;C:\\Python27\\Scripts;C:\\Documents and Settings\\Administrator\\Local Settings\\Application Data\\Kingsoft\\WPS Office\\9.1.0.4866\\office6'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Win32) OpenSSL/0.9.8y PHP/5.4.25 Server at yii.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Win32) OpenSSL/0.9.8y PHP/5.4.25'
+    'SERVER_NAME' => 'yii.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'E:/yii/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/yii/frontend/web'
+    'SERVER_ADMIN' => 'admin@yii.com'
+    'SCRIPT_FILENAME' => 'E:/yii/frontend/web/index.php'
+    'REMOTE_PORT' => '3495'
+    'REDIRECT_URL' => '/site/signup'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/site/signup'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1423118853.312
+    'REQUEST_TIME' => 1423118853
+]
+2015-02-05 14:47:33 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in E:\yii\vendor\yiisoft\yii2\web\Request.php:187
+Stack trace:
+#0 E:\yii\vendor\yiisoft\yii2\web\Application.php(75): yii\web\Request->resolve()
+#1 E:\yii\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 E:\yii\frontend\web\index.php(18): yii\base\Application->run()
+#3 {main}
+2015-02-05 14:47:33 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    '_csrf' => '6939de56ec32c23caa3e685adae3880811430b9699484068f6e2c0317e4985f3s:32:\"kyUgtigTbSteX8edQqHIHzbXlMKOvSRq\";'
+    'PHPSESSID' => '5dr0t131jn21o4vvmln9ri75q0'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'jebaaia'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'yii.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.95 Safari/537.36'
+    'HTTP_REFERER' => 'http://yii.com/site/signup'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6,zh-TW;q=0.4'
+    'HTTP_COOKIE' => '_csrf=6939de56ec32c23caa3e685adae3880811430b9699484068f6e2c0317e4985f3s%3A32%3A%22kyUgtigTbSteX8edQqHIHzbXlMKOvSRq%22%3B; PHPSESSID=5dr0t131jn21o4vvmln9ri75q0'
+    'PATH' => 'C:\\Program Files\\Git\\git-cheetah\\..\\bin;C:\\Program Files\\Git\\git-cheetah\\..\\bin;C:\\Program Files\\Git\\git-cheetah\\..\\bin;C:\\Program Files\\Git\\git-cheetah\\..\\bin;C:\\Program Files\\Git\\git-cheetah\\..\\bin;C:\\Program Files\\Common Files\\NetSarang;C:\\Python27\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files\\田客草屋\\桌面录像精灵\\Microsoft.VC80.CRT;C:\\Progra; Files\\田客草屋\\桌面录像精灵\\Microsoft.VC80.MFC;C:\\Python27;C:\\Python27\\Scripts;C:\\xampp\\php;C:\\Documents and Settings\\All Users\\Application Data\\ComposerSetup\\bin;C:\\xampp\\php;C:\\Python27\\Scripts;C:\\Documents and Settings\\Administrator\\Local Settings\\Application Data\\Kingsoft\\WPS Office\\9.1.0.4866\\office6'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Win32) OpenSSL/0.9.8y PHP/5.4.25 Server at yii.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Win32) OpenSSL/0.9.8y PHP/5.4.25'
+    'SERVER_NAME' => 'yii.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'E:/yii/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/yii/frontend/web'
+    'SERVER_ADMIN' => 'admin@yii.com'
+    'SCRIPT_FILENAME' => 'E:/yii/frontend/web/index.php'
+    'REMOTE_PORT' => '3494'
+    'REDIRECT_URL' => '/site/contact'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/site/contact'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1423118853.828
+    'REQUEST_TIME' => 1423118853
+]
+2015-02-05 14:47:34 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in E:\yii\vendor\yiisoft\yii2\web\Request.php:187
+Stack trace:
+#0 E:\yii\vendor\yiisoft\yii2\web\Application.php(75): yii\web\Request->resolve()
+#1 E:\yii\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 E:\yii\frontend\web\index.php(18): yii\base\Application->run()
+#3 {main}
+2015-02-05 14:47:34 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    '_csrf' => '6939de56ec32c23caa3e685adae3880811430b9699484068f6e2c0317e4985f3s:32:\"kyUgtigTbSteX8edQqHIHzbXlMKOvSRq\";'
+    'PHPSESSID' => '5dr0t131jn21o4vvmln9ri75q0'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'jebaaia'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'yii.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.95 Safari/537.36'
+    'HTTP_REFERER' => 'http://yii.com/site/contact'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6,zh-TW;q=0.4'
+    'HTTP_COOKIE' => '_csrf=6939de56ec32c23caa3e685adae3880811430b9699484068f6e2c0317e4985f3s%3A32%3A%22kyUgtigTbSteX8edQqHIHzbXlMKOvSRq%22%3B; PHPSESSID=5dr0t131jn21o4vvmln9ri75q0'
+    'PATH' => 'C:\\Program Files\\Git\\git-cheetah\\..\\bin;C:\\Program Files\\Git\\git-cheetah\\..\\bin;C:\\Program Files\\Git\\git-cheetah\\..\\bin;C:\\Program Files\\Git\\git-cheetah\\..\\bin;C:\\Program Files\\Git\\git-cheetah\\..\\bin;C:\\Program Files\\Common Files\\NetSarang;C:\\Python27\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files\\田客草屋\\桌面录像精灵\\Microsoft.VC80.CRT;C:\\Progra; Files\\田客草屋\\桌面录像精灵\\Microsoft.VC80.MFC;C:\\Python27;C:\\Python27\\Scripts;C:\\xampp\\php;C:\\Documents and Settings\\All Users\\Application Data\\ComposerSetup\\bin;C:\\xampp\\php;C:\\Python27\\Scripts;C:\\Documents and Settings\\Administrator\\Local Settings\\Application Data\\Kingsoft\\WPS Office\\9.1.0.4866\\office6'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Win32) OpenSSL/0.9.8y PHP/5.4.25 Server at yii.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Win32) OpenSSL/0.9.8y PHP/5.4.25'
+    'SERVER_NAME' => 'yii.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'E:/yii/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/yii/frontend/web'
+    'SERVER_ADMIN' => 'admin@yii.com'
+    'SCRIPT_FILENAME' => 'E:/yii/frontend/web/index.php'
+    'REMOTE_PORT' => '3494'
+    'REDIRECT_URL' => '/site/contact'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/site/contact'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1423118854.218
+    'REQUEST_TIME' => 1423118854
+]
+2015-02-05 14:47:34 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in E:\yii\vendor\yiisoft\yii2\web\Request.php:187
+Stack trace:
+#0 E:\yii\vendor\yiisoft\yii2\web\Application.php(75): yii\web\Request->resolve()
+#1 E:\yii\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 E:\yii\frontend\web\index.php(18): yii\base\Application->run()
+#3 {main}
+2015-02-05 14:47:34 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    '_csrf' => '6939de56ec32c23caa3e685adae3880811430b9699484068f6e2c0317e4985f3s:32:\"kyUgtigTbSteX8edQqHIHzbXlMKOvSRq\";'
+    'PHPSESSID' => '5dr0t131jn21o4vvmln9ri75q0'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'jebaaia'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'yii.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.95 Safari/537.36'
+    'HTTP_REFERER' => 'http://yii.com/site/contact'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6,zh-TW;q=0.4'
+    'HTTP_COOKIE' => '_csrf=6939de56ec32c23caa3e685adae3880811430b9699484068f6e2c0317e4985f3s%3A32%3A%22kyUgtigTbSteX8edQqHIHzbXlMKOvSRq%22%3B; PHPSESSID=5dr0t131jn21o4vvmln9ri75q0'
+    'PATH' => 'C:\\Program Files\\Git\\git-cheetah\\..\\bin;C:\\Program Files\\Git\\git-cheetah\\..\\bin;C:\\Program Files\\Git\\git-cheetah\\..\\bin;C:\\Program Files\\Git\\git-cheetah\\..\\bin;C:\\Program Files\\Git\\git-cheetah\\..\\bin;C:\\Program Files\\Common Files\\NetSarang;C:\\Python27\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files\\田客草屋\\桌面录像精灵\\Microsoft.VC80.CRT;C:\\Progra; Files\\田客草屋\\桌面录像精灵\\Microsoft.VC80.MFC;C:\\Python27;C:\\Python27\\Scripts;C:\\xampp\\php;C:\\Documents and Settings\\All Users\\Application Data\\ComposerSetup\\bin;C:\\xampp\\php;C:\\Python27\\Scripts;C:\\Documents and Settings\\Administrator\\Local Settings\\Application Data\\Kingsoft\\WPS Office\\9.1.0.4866\\office6'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Win32) OpenSSL/0.9.8y PHP/5.4.25 Server at yii.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Win32) OpenSSL/0.9.8y PHP/5.4.25'
+    'SERVER_NAME' => 'yii.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'E:/yii/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/yii/frontend/web'
+    'SERVER_ADMIN' => 'admin@yii.com'
+    'SCRIPT_FILENAME' => 'E:/yii/frontend/web/index.php'
+    'REMOTE_PORT' => '3494'
+    'REDIRECT_URL' => '/site/index'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/site/index'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1423118854.921
+    'REQUEST_TIME' => 1423118854
+]
+2015-02-05 14:58:20 [127.0.0.1][-][-][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'NavBar' not found' in E:\yii\frontend\views\layouts\main.php:21
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2015-02-05 14:58:20 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    '_csrf' => '6939de56ec32c23caa3e685adae3880811430b9699484068f6e2c0317e4985f3s:32:\"kyUgtigTbSteX8edQqHIHzbXlMKOvSRq\";'
+    'PHPSESSID' => '5dr0t131jn21o4vvmln9ri75q0'
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'yii.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.95 Safari/537.36'
+    'HTTP_REFERER' => 'http://yii.com/site/contact'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6,zh-TW;q=0.4'
+    'HTTP_COOKIE' => '_csrf=6939de56ec32c23caa3e685adae3880811430b9699484068f6e2c0317e4985f3s%3A32%3A%22kyUgtigTbSteX8edQqHIHzbXlMKOvSRq%22%3B; PHPSESSID=5dr0t131jn21o4vvmln9ri75q0'
+    'PATH' => 'C:\\Program Files\\Git\\git-cheetah\\..\\bin;C:\\Program Files\\Git\\git-cheetah\\..\\bin;C:\\Program Files\\Git\\git-cheetah\\..\\bin;C:\\Program Files\\Git\\git-cheetah\\..\\bin;C:\\Program Files\\Git\\git-cheetah\\..\\bin;C:\\Program Files\\Common Files\\NetSarang;C:\\Python27\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files\\田客草屋\\桌面录像精灵\\Microsoft.VC80.CRT;C:\\Progra; Files\\田客草屋\\桌面录像精灵\\Microsoft.VC80.MFC;C:\\Python27;C:\\Python27\\Scripts;C:\\xampp\\php;C:\\Documents and Settings\\All Users\\Application Data\\ComposerSetup\\bin;C:\\xampp\\php;C:\\Python27\\Scripts;C:\\Documents and Settings\\Administrator\\Local Settings\\Application Data\\Kingsoft\\WPS Office\\9.1.0.4866\\office6'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Win32) OpenSSL/0.9.8y PHP/5.4.25 Server at yii.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Win32) OpenSSL/0.9.8y PHP/5.4.25'
+    'SERVER_NAME' => 'yii.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'E:/yii/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/yii/frontend/web'
+    'SERVER_ADMIN' => 'admin@yii.com'
+    'SCRIPT_FILENAME' => 'E:/yii/frontend/web/index.php'
+    'REMOTE_PORT' => '4113'
+    'REDIRECT_URL' => '/site/index'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/site/index'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1423119500.828
+    'REQUEST_TIME' => 1423119500
+]
+2015-02-09 14:37:49 [127.0.0.1][-][-][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'Html' not found' in E:\yii\frontend\views\site\index.php:9
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2015-02-09 14:37:49 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    '_csrf' => '019f76cf353a40bcce67a135caff1a073d3e46c552a94c0680e9c69e07dee97cs:32:\"p2vPI6lZtRJUSQ9exgqvAgxrqfc1jwT_\";'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'yii.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.95 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6,zh-TW;q=0.4'
+    'HTTP_COOKIE' => '_csrf=019f76cf353a40bcce67a135caff1a073d3e46c552a94c0680e9c69e07dee97cs%3A32%3A%22p2vPI6lZtRJUSQ9exgqvAgxrqfc1jwT_%22%3B'
+    'PATH' => 'C:\\Program Files\\Common Files\\NetSarang;C:\\Python27\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files\\田客草屋\\桌面录像精灵\\Microsoft.VC80.CRT;C:\\Progra; Files\\田客草屋\\桌面录像精灵\\Microsoft.VC80.MFC;C:\\Python27;C:\\Python27\\Scripts;C:\\xampp\\php;C:\\Documents and Settings\\All Users\\Application Data\\ComposerSetup\\bin;C:\\xampp\\php;C:\\Python27\\Scripts;C:\\Documents and Settings\\Administrator\\Local Settings\\Application Data\\Kingsoft\\WPS Office\\9.1.0.4866\\office6'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Win32) OpenSSL/0.9.8y PHP/5.4.25 Server at yii.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Win32) OpenSSL/0.9.8y PHP/5.4.25'
+    'SERVER_NAME' => 'yii.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'E:/yii/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/yii/frontend/web'
+    'SERVER_ADMIN' => 'admin@yii.com'
+    'SCRIPT_FILENAME' => 'E:/yii/frontend/web/index.php'
+    'REMOTE_PORT' => '3630'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1423463869.843
+    'REQUEST_TIME' => 1423463869
+]
+2015-02-10 14:13:54 [127.0.0.1][-][-][error][yii\base\InvalidParamException] exception 'yii\base\InvalidParamException' with message 'Invalid path alias: @asset' in E:\yii\vendor\yiisoft\yii2\BaseYii.php:152
+Stack trace:
+#0 E:\yii\frontend\views\site\index.php(18): yii\BaseYii::getAlias('@asset')
+#1 E:\yii\vendor\yiisoft\yii2\base\View.php(325): require('E:\yii\frontend...')
+#2 E:\yii\vendor\yiisoft\yii2\base\View.php(247): yii\base\View->renderPhpFile('E:\yii\frontend...', Array)
+#3 E:\yii\vendor\yiisoft\yii2\base\View.php(149): yii\base\View->renderFile('E:\yii\frontend...', Array, Object(frontend\controllers\SiteController))
+#4 E:\yii\vendor\yiisoft\yii2\base\Controller.php(367): yii\base\View->render('index', Array, Object(frontend\controllers\SiteController))
+#5 E:\yii\frontend\controllers\SiteController.php(71): yii\base\Controller->render('index')
+#6 [internal function]: frontend\controllers\SiteController->actionIndex()
+#7 E:\yii\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#8 E:\yii\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#9 E:\yii\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('', Array)
+#10 E:\yii\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('', Array)
+#11 E:\yii\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#12 E:\yii\frontend\web\index.php(18): yii\base\Application->run()
+#13 {main}
+2015-02-10 14:13:54 [127.0.0.1][-][-][info][application] $_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'www.yii.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.95 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6,zh-TW;q=0.4'
+    'PATH' => 'C:\\Program Files\\Common Files\\NetSarang;C:\\Python27\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files\\田客草屋\\桌面录像精灵\\Microsoft.VC80.CRT;C:\\Progra; Files\\田客草屋\\桌面录像精灵\\Microsoft.VC80.MFC;C:\\Python27;C:\\Python27\\Scripts;C:\\xampp\\php;C:\\Documents and Settings\\All Users\\Application Data\\ComposerSetup\\bin;C:\\xampp\\php;C:\\Python27\\Scripts;C:\\Documents and Settings\\Administrator\\Local Settings\\Application Data\\Kingsoft\\WPS Office\\9.1.0.4866\\office6'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Win32) OpenSSL/0.9.8y PHP/5.4.25 Server at www.yii.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Win32) OpenSSL/0.9.8y PHP/5.4.25'
+    'SERVER_NAME' => 'www.yii.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'E:/yii/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/yii/frontend/web'
+    'SERVER_ADMIN' => 'admin@yii.com'
+    'SCRIPT_FILENAME' => 'E:/yii/frontend/web/index.php'
+    'REMOTE_PORT' => '4007'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1423548834.531
+    'REQUEST_TIME' => 1423548834
+]
+2015-02-10 14:15:47 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "images/logo.png".' in E:\yii\vendor\yiisoft\yii2\base\Module.php:461
+Stack trace:
+#0 E:\yii\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('images/logo.png', Array)
+#1 E:\yii\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 E:\yii\frontend\web\index.php(18): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message '页面未找到。' in E:\yii\vendor\yiisoft\yii2\web\Application.php:95
+Stack trace:
+#0 E:\yii\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 E:\yii\frontend\web\index.php(18): yii\base\Application->run()
+#2 {main}
+2015-02-10 14:15:47 [127.0.0.1][-][-][info][application] $_SERVER = [
+    'REDIRECT_MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'www.yii.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.95 Safari/537.36'
+    'HTTP_REFERER' => 'http://www.yii.com/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6,zh-TW;q=0.4'
+    'PATH' => 'C:\\Program Files\\Common Files\\NetSarang;C:\\Python27\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files\\田客草屋\\桌面录像精灵\\Microsoft.VC80.CRT;C:\\Progra; Files\\田客草屋\\桌面录像精灵\\Microsoft.VC80.MFC;C:\\Python27;C:\\Python27\\Scripts;C:\\xampp\\php;C:\\Documents and Settings\\All Users\\Application Data\\ComposerSetup\\bin;C:\\xampp\\php;C:\\Python27\\Scripts;C:\\Documents and Settings\\Administrator\\Local Settings\\Application Data\\Kingsoft\\WPS Office\\9.1.0.4866\\office6'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Win32) OpenSSL/0.9.8y PHP/5.4.25 Server at www.yii.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Win32) OpenSSL/0.9.8y PHP/5.4.25'
+    'SERVER_NAME' => 'www.yii.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'E:/yii/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/yii/frontend/web'
+    'SERVER_ADMIN' => 'admin@yii.com'
+    'SCRIPT_FILENAME' => 'E:/yii/frontend/web/index.php'
+    'REMOTE_PORT' => '4034'
+    'REDIRECT_URL' => '/images/logo.png'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/images/logo.png'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1423548947.109
+    'REQUEST_TIME' => 1423548947
+]
+2015-02-10 14:15:50 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "images/logo.png".' in E:\yii\vendor\yiisoft\yii2\base\Module.php:461
+Stack trace:
+#0 E:\yii\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('images/logo.png', Array)
+#1 E:\yii\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 E:\yii\frontend\web\index.php(18): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message '页面未找到。' in E:\yii\vendor\yiisoft\yii2\web\Application.php:95
+Stack trace:
+#0 E:\yii\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 E:\yii\frontend\web\index.php(18): yii\base\Application->run()
+#2 {main}
+2015-02-10 14:15:50 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    '_csrf' => 'f80b506aea2e0e537a7cf473c9e4b95978e142030fab9a0495cf134449c6f122s:32:\"k-KN7IE1LH9Rur6_uM5_w82_z_ATEg2t\";'
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'www.yii.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.95 Safari/537.36'
+    'HTTP_REFERER' => 'http://www.yii.com/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6,zh-TW;q=0.4'
+    'HTTP_COOKIE' => '_csrf=f80b506aea2e0e537a7cf473c9e4b95978e142030fab9a0495cf134449c6f122s%3A32%3A%22k-KN7IE1LH9Rur6_uM5_w82_z_ATEg2t%22%3B'
+    'PATH' => 'C:\\Program Files\\Common Files\\NetSarang;C:\\Python27\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files\\田客草屋\\桌面录像精灵\\Microsoft.VC80.CRT;C:\\Progra; Files\\田客草屋\\桌面录像精灵\\Microsoft.VC80.MFC;C:\\Python27;C:\\Python27\\Scripts;C:\\xampp\\php;C:\\Documents and Settings\\All Users\\Application Data\\ComposerSetup\\bin;C:\\xampp\\php;C:\\Python27\\Scripts;C:\\Documents and Settings\\Administrator\\Local Settings\\Application Data\\Kingsoft\\WPS Office\\9.1.0.4866\\office6'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Win32) OpenSSL/0.9.8y PHP/5.4.25 Server at www.yii.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Win32) OpenSSL/0.9.8y PHP/5.4.25'
+    'SERVER_NAME' => 'www.yii.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'E:/yii/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/yii/frontend/web'
+    'SERVER_ADMIN' => 'admin@yii.com'
+    'SCRIPT_FILENAME' => 'E:/yii/frontend/web/index.php'
+    'REMOTE_PORT' => '4034'
+    'REDIRECT_URL' => '/images/logo.png'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/images/logo.png'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1423548950.484
+    'REQUEST_TIME' => 1423548950
+]
+2015-02-10 14:17:22 [127.0.0.1][-][-][error][yii\base\InvalidParamException] exception 'yii\base\InvalidParamException' with message 'Invalid path alias: @baseUrl' in E:\yii\vendor\yiisoft\yii2\BaseYii.php:152
+Stack trace:
+#0 E:\yii\frontend\views\site\index.php(18): yii\BaseYii::getAlias('@baseUrl')
+#1 E:\yii\vendor\yiisoft\yii2\base\View.php(325): require('E:\yii\frontend...')
+#2 E:\yii\vendor\yiisoft\yii2\base\View.php(247): yii\base\View->renderPhpFile('E:\yii\frontend...', Array)
+#3 E:\yii\vendor\yiisoft\yii2\base\View.php(149): yii\base\View->renderFile('E:\yii\frontend...', Array, Object(frontend\controllers\SiteController))
+#4 E:\yii\vendor\yiisoft\yii2\base\Controller.php(367): yii\base\View->render('index', Array, Object(frontend\controllers\SiteController))
+#5 E:\yii\frontend\controllers\SiteController.php(71): yii\base\Controller->render('index')
+#6 [internal function]: frontend\controllers\SiteController->actionIndex()
+#7 E:\yii\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#8 E:\yii\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#9 E:\yii\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('', Array)
+#10 E:\yii\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('', Array)
+#11 E:\yii\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#12 E:\yii\frontend\web\index.php(18): yii\base\Application->run()
+#13 {main}
+2015-02-10 14:17:22 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    '_csrf' => 'f80b506aea2e0e537a7cf473c9e4b95978e142030fab9a0495cf134449c6f122s:32:\"k-KN7IE1LH9Rur6_uM5_w82_z_ATEg2t\";'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'www.yii.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.95 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6,zh-TW;q=0.4'
+    'HTTP_COOKIE' => '_csrf=f80b506aea2e0e537a7cf473c9e4b95978e142030fab9a0495cf134449c6f122s%3A32%3A%22k-KN7IE1LH9Rur6_uM5_w82_z_ATEg2t%22%3B'
+    'PATH' => 'C:\\Program Files\\Common Files\\NetSarang;C:\\Python27\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files\\田客草屋\\桌面录像精灵\\Microsoft.VC80.CRT;C:\\Progra; Files\\田客草屋\\桌面录像精灵\\Microsoft.VC80.MFC;C:\\Python27;C:\\Python27\\Scripts;C:\\xampp\\php;C:\\Documents and Settings\\All Users\\Application Data\\ComposerSetup\\bin;C:\\xampp\\php;C:\\Python27\\Scripts;C:\\Documents and Settings\\Administrator\\Local Settings\\Application Data\\Kingsoft\\WPS Office\\9.1.0.4866\\office6'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Win32) OpenSSL/0.9.8y PHP/5.4.25 Server at www.yii.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Win32) OpenSSL/0.9.8y PHP/5.4.25'
+    'SERVER_NAME' => 'www.yii.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'E:/yii/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/yii/frontend/web'
+    'SERVER_ADMIN' => 'admin@yii.com'
+    'SCRIPT_FILENAME' => 'E:/yii/frontend/web/index.php'
+    'REMOTE_PORT' => '4048'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1423549042.828
+    'REQUEST_TIME' => 1423549042
+]
+2015-02-10 14:20:45 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "images/logo.png".' in E:\yii\vendor\yiisoft\yii2\base\Module.php:461
+Stack trace:
+#0 E:\yii\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('images/logo.png', Array)
+#1 E:\yii\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 E:\yii\frontend\web\index.php(18): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message '页面未找到。' in E:\yii\vendor\yiisoft\yii2\web\Application.php:95
+Stack trace:
+#0 E:\yii\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 E:\yii\frontend\web\index.php(18): yii\base\Application->run()
+#2 {main}
+2015-02-10 14:20:45 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    '_csrf' => 'f80b506aea2e0e537a7cf473c9e4b95978e142030fab9a0495cf134449c6f122s:32:\"k-KN7IE1LH9Rur6_uM5_w82_z_ATEg2t\";'
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'www.yii.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.95 Safari/537.36'
+    'HTTP_REFERER' => 'http://www.yii.com/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6,zh-TW;q=0.4'
+    'HTTP_COOKIE' => '_csrf=f80b506aea2e0e537a7cf473c9e4b95978e142030fab9a0495cf134449c6f122s%3A32%3A%22k-KN7IE1LH9Rur6_uM5_w82_z_ATEg2t%22%3B'
+    'PATH' => 'C:\\Program Files\\Common Files\\NetSarang;C:\\Python27\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files\\田客草屋\\桌面录像精灵\\Microsoft.VC80.CRT;C:\\Progra; Files\\田客草屋\\桌面录像精灵\\Microsoft.VC80.MFC;C:\\Python27;C:\\Python27\\Scripts;C:\\xampp\\php;C:\\Documents and Settings\\All Users\\Application Data\\ComposerSetup\\bin;C:\\xampp\\php;C:\\Python27\\Scripts;C:\\Documents and Settings\\Administrator\\Local Settings\\Application Data\\Kingsoft\\WPS Office\\9.1.0.4866\\office6'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Win32) OpenSSL/0.9.8y PHP/5.4.25 Server at www.yii.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Win32) OpenSSL/0.9.8y PHP/5.4.25'
+    'SERVER_NAME' => 'www.yii.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'E:/yii/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/yii/frontend/web'
+    'SERVER_ADMIN' => 'admin@yii.com'
+    'SCRIPT_FILENAME' => 'E:/yii/frontend/web/index.php'
+    'REMOTE_PORT' => '4176'
+    'REDIRECT_URL' => '/images/logo.png'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/images/logo.png'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1423549245.546
+    'REQUEST_TIME' => 1423549245
+]
+2015-02-10 15:16:54 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "test".' in E:\yii\vendor\yiisoft\yii2\base\Module.php:461
+Stack trace:
+#0 E:\yii\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('test', Array)
+#1 E:\yii\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 E:\yii\frontend\web\index.php(18): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message '页面未找到。' in E:\yii\vendor\yiisoft\yii2\web\Application.php:95
+Stack trace:
+#0 E:\yii\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 E:\yii\frontend\web\index.php(18): yii\base\Application->run()
+#2 {main}
+2015-02-10 15:16:54 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    '_csrf' => 'f80b506aea2e0e537a7cf473c9e4b95978e142030fab9a0495cf134449c6f122s:32:\"k-KN7IE1LH9Rur6_uM5_w82_z_ATEg2t\";'
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'www.yii.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.95 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6,zh-TW;q=0.4'
+    'HTTP_COOKIE' => '_csrf=f80b506aea2e0e537a7cf473c9e4b95978e142030fab9a0495cf134449c6f122s%3A32%3A%22k-KN7IE1LH9Rur6_uM5_w82_z_ATEg2t%22%3B'
+    'PATH' => 'C:\\Program Files\\Common Files\\NetSarang;C:\\Python27\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files\\田客草屋\\桌面录像精灵\\Microsoft.VC80.CRT;C:\\Progra; Files\\田客草屋\\桌面录像精灵\\Microsoft.VC80.MFC;C:\\Python27;C:\\Python27\\Scripts;C:\\xampp\\php;C:\\Documents and Settings\\All Users\\Application Data\\ComposerSetup\\bin;C:\\xampp\\php;C:\\Python27\\Scripts;C:\\Documents and Settings\\Administrator\\Local Settings\\Application Data\\Kingsoft\\WPS Office\\9.1.0.4866\\office6'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Win32) OpenSSL/0.9.8y PHP/5.4.25 Server at www.yii.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Win32) OpenSSL/0.9.8y PHP/5.4.25'
+    'SERVER_NAME' => 'www.yii.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'E:/yii/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/yii/frontend/web'
+    'SERVER_ADMIN' => 'admin@yii.com'
+    'SCRIPT_FILENAME' => 'E:/yii/frontend/web/index.php'
+    'REMOTE_PORT' => '1799'
+    'REDIRECT_URL' => '/test'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/test'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1423552614.734
+    'REQUEST_TIME' => 1423552614
+]
+2015-02-10 15:25:40 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "topic/detail".' in E:\yii\vendor\yiisoft\yii2\base\Module.php:461
+Stack trace:
+#0 E:\yii\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('topic/detail', Array)
+#1 E:\yii\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 E:\yii\frontend\web\index.php(18): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message '页面未找到。' in E:\yii\vendor\yiisoft\yii2\web\Application.php:95
+Stack trace:
+#0 E:\yii\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 E:\yii\frontend\web\index.php(18): yii\base\Application->run()
+#2 {main}
+2015-02-10 15:25:40 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    '_csrf' => 'f80b506aea2e0e537a7cf473c9e4b95978e142030fab9a0495cf134449c6f122s:32:\"k-KN7IE1LH9Rur6_uM5_w82_z_ATEg2t\";'
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'www.yii.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.95 Safari/537.36'
+    'HTTP_REFERER' => 'http://www.yii.com/site/test'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6,zh-TW;q=0.4'
+    'HTTP_COOKIE' => '_csrf=f80b506aea2e0e537a7cf473c9e4b95978e142030fab9a0495cf134449c6f122s%3A32%3A%22k-KN7IE1LH9Rur6_uM5_w82_z_ATEg2t%22%3B'
+    'PATH' => 'C:\\Program Files\\Common Files\\NetSarang;C:\\Python27\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files\\田客草屋\\桌面录像精灵\\Microsoft.VC80.CRT;C:\\Progra; Files\\田客草屋\\桌面录像精灵\\Microsoft.VC80.MFC;C:\\Python27;C:\\Python27\\Scripts;C:\\xampp\\php;C:\\Documents and Settings\\All Users\\Application Data\\ComposerSetup\\bin;C:\\xampp\\php;C:\\Python27\\Scripts;C:\\Documents and Settings\\Administrator\\Local Settings\\Application Data\\Kingsoft\\WPS Office\\9.1.0.4866\\office6'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Win32) OpenSSL/0.9.8y PHP/5.4.25 Server at www.yii.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Win32) OpenSSL/0.9.8y PHP/5.4.25'
+    'SERVER_NAME' => 'www.yii.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'E:/yii/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/yii/frontend/web'
+    'SERVER_ADMIN' => 'admin@yii.com'
+    'SCRIPT_FILENAME' => 'E:/yii/frontend/web/index.php'
+    'REMOTE_PORT' => '1974'
+    'REDIRECT_URL' => '/topic/detail'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/topic/detail'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1423553140.515
+    'REQUEST_TIME' => 1423553140
+]
+2015-02-11 17:22:19 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "test".' in E:\yii\vendor\yiisoft\yii2\base\Module.php:461
+Stack trace:
+#0 E:\yii\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('test', Array)
+#1 E:\yii\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 E:\yii\frontend\web\index.php(18): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message '页面未找到。' in E:\yii\vendor\yiisoft\yii2\web\Application.php:95
+Stack trace:
+#0 E:\yii\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 E:\yii\frontend\web\index.php(18): yii\base\Application->run()
+#2 {main}
+2015-02-11 17:22:19 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    '_csrf' => '4b899f69861d08858c7b04b3b20e70ffc75d85e76347472f3ecd9e3f8926efbbs:32:\"epKMQOqXMFJjkud-xdBcSeVm1AY_yq4b\";'
+    'PHPSESSID' => 'qk9fe8tifoc2f9ohahtn679uo4'
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'yii.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.95 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6,zh-TW;q=0.4'
+    'HTTP_COOKIE' => '_csrf=4b899f69861d08858c7b04b3b20e70ffc75d85e76347472f3ecd9e3f8926efbbs%3A32%3A%22epKMQOqXMFJjkud-xdBcSeVm1AY_yq4b%22%3B; PHPSESSID=qk9fe8tifoc2f9ohahtn679uo4'
+    'PATH' => 'C:\\Program Files\\Common Files\\NetSarang;C:\\Python27\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files\\田客草屋\\桌面录像精灵\\Microsoft.VC80.CRT;C:\\Progra; Files\\田客草屋\\桌面录像精灵\\Microsoft.VC80.MFC;C:\\Python27;C:\\Python27\\Scripts;C:\\xampp\\php;C:\\Documents and Settings\\All Users\\Application Data\\ComposerSetup\\bin;C:\\xampp\\php;C:\\Python27\\Scripts;C:\\Documents and Settings\\Administrator\\Local Settings\\Application Data\\Kingsoft\\WPS Office\\9.1.0.4866\\office6'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Win32) OpenSSL/0.9.8y PHP/5.4.25 Server at yii.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Win32) OpenSSL/0.9.8y PHP/5.4.25'
+    'SERVER_NAME' => 'yii.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'E:/yii/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/yii/frontend/web'
+    'SERVER_ADMIN' => 'admin@yii.com'
+    'SCRIPT_FILENAME' => 'E:/yii/frontend/web/index.php'
+    'REMOTE_PORT' => '3259'
+    'REDIRECT_URL' => '/test'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/test'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1423646539.296
+    'REQUEST_TIME' => 1423646539
+]

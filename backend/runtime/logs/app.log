@@ -1,0 +1,142 @@
+2015-02-09 14:16:52 [127.0.0.1][-][-][error][yii\db\Exception] exception 'PDOException' with message 'SQLSTATE[HY000] [1049] Unknown database 'yii2advanced'' in E:\yii\vendor\yiisoft\yii2\db\Connection.php:579
+Stack trace:
+#0 E:\yii\vendor\yiisoft\yii2\db\Connection.php(579): PDO->__construct('mysql:host=loca...', 'root', '', NULL)
+#1 E:\yii\vendor\yiisoft\yii2\db\Connection.php(529): yii\db\Connection->createPdoInstance()
+#2 E:\yii\vendor\yiisoft\yii2\db\Connection.php(836): yii\db\Connection->open()
+#3 E:\yii\vendor\yiisoft\yii2\db\Connection.php(823): yii\db\Connection->getMasterPdo()
+#4 E:\yii\vendor\yiisoft\yii2\db\Schema.php(382): yii\db\Connection->getSlavePdo()
+#5 E:\yii\vendor\yiisoft\yii2\db\Connection.php(732): yii\db\Schema->quoteValue('admin')
+#6 E:\yii\vendor\yiisoft\yii2\db\Command.php(164): yii\db\Connection->quoteValue('admin')
+#7 E:\yii\vendor\yiisoft\yii2\db\Command.php(791): yii\db\Command->getRawSql()
+#8 E:\yii\vendor\yiisoft\yii2\db\Command.php(364): yii\db\Command->queryInternal('fetch', NULL)
+#9 E:\yii\vendor\yiisoft\yii2\db\Query.php(243): yii\db\Command->queryOne()
+#10 E:\yii\vendor\yiisoft\yii2\db\ActiveQuery.php(285): yii\db\Query->one(NULL)
+#11 E:\yii\vendor\yiisoft\yii2\db\ActiveRecord.php(191): yii\db\ActiveQuery->one()
+#12 E:\yii\vendor\yiisoft\yii2\db\BaseActiveRecord.php(101): yii\db\ActiveRecord::findByCondition(Array, true)
+#13 E:\yii\common\models\User.php(82): yii\db\BaseActiveRecord::findOne(Array)
+#14 E:\yii\common\models\LoginForm.php(73): common\models\User::findByUsername('admin')
+#15 E:\yii\common\models\LoginForm.php(44): common\models\LoginForm->getUser()
+#16 [internal function]: common\models\LoginForm->validatePassword('password', NULL)
+#17 E:\yii\vendor\yiisoft\yii2\validators\InlineValidator.php(67): call_user_func(Array, 'password', NULL)
+#18 E:\yii\vendor\yiisoft\yii2\validators\Validator.php(238): yii\validators\InlineValidator->validateAttribute(Object(common\models\LoginForm), 'password')
+#19 E:\yii\vendor\yiisoft\yii2\base\Model.php(333): yii\validators\Validator->validateAttributes(Object(common\models\LoginForm), Array)
+#20 E:\yii\common\models\LoginForm.php(58): yii\base\Model->validate()
+#21 E:\yii\backend\controllers\SiteController.php(68): common\models\LoginForm->login()
+#22 [internal function]: backend\controllers\SiteController->actionLogin()
+#23 E:\yii\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#24 E:\yii\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#25 E:\yii\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('login', Array)
+#26 E:\yii\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('site/login', Array)
+#27 E:\yii\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#28 E:\yii\backend\web\index.php(18): yii\base\Application->run()
+#29 {main}
+
+Next exception 'yii\db\Exception' with message 'SQLSTATE[HY000] [1049] Unknown database 'yii2advanced'' in E:\yii\vendor\yiisoft\yii2\db\Connection.php:534
+Stack trace:
+#0 E:\yii\vendor\yiisoft\yii2\db\Connection.php(836): yii\db\Connection->open()
+#1 E:\yii\vendor\yiisoft\yii2\db\Connection.php(823): yii\db\Connection->getMasterPdo()
+#2 E:\yii\vendor\yiisoft\yii2\db\Schema.php(382): yii\db\Connection->getSlavePdo()
+#3 E:\yii\vendor\yiisoft\yii2\db\Connection.php(732): yii\db\Schema->quoteValue('admin')
+#4 E:\yii\vendor\yiisoft\yii2\db\Command.php(164): yii\db\Connection->quoteValue('admin')
+#5 E:\yii\vendor\yiisoft\yii2\db\Command.php(791): yii\db\Command->getRawSql()
+#6 E:\yii\vendor\yiisoft\yii2\db\Command.php(364): yii\db\Command->queryInternal('fetch', NULL)
+#7 E:\yii\vendor\yiisoft\yii2\db\Query.php(243): yii\db\Command->queryOne()
+#8 E:\yii\vendor\yiisoft\yii2\db\ActiveQuery.php(285): yii\db\Query->one(NULL)
+#9 E:\yii\vendor\yiisoft\yii2\db\ActiveRecord.php(191): yii\db\ActiveQuery->one()
+#10 E:\yii\vendor\yiisoft\yii2\db\BaseActiveRecord.php(101): yii\db\ActiveRecord::findByCondition(Array, true)
+#11 E:\yii\common\models\User.php(82): yii\db\BaseActiveRecord::findOne(Array)
+#12 E:\yii\common\models\LoginForm.php(73): common\models\User::findByUsername('admin')
+#13 E:\yii\common\models\LoginForm.php(44): common\models\LoginForm->getUser()
+#14 [internal function]: common\models\LoginForm->validatePassword('password', NULL)
+#15 E:\yii\vendor\yiisoft\yii2\validators\InlineValidator.php(67): call_user_func(Array, 'password', NULL)
+#16 E:\yii\vendor\yiisoft\yii2\validators\Validator.php(238): yii\validators\InlineValidator->validateAttribute(Object(common\models\LoginForm), 'password')
+#17 E:\yii\vendor\yiisoft\yii2\base\Model.php(333): yii\validators\Validator->validateAttributes(Object(common\models\LoginForm), Array)
+#18 E:\yii\common\models\LoginForm.php(58): yii\base\Model->validate()
+#19 E:\yii\backend\controllers\SiteController.php(68): common\models\LoginForm->login()
+#20 [internal function]: backend\controllers\SiteController->actionLogin()
+#21 E:\yii\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#22 E:\yii\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#23 E:\yii\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('login', Array)
+#24 E:\yii\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('site/login', Array)
+#25 E:\yii\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#26 E:\yii\backend\web\index.php(18): yii\base\Application->run()
+#27 {main}
+Additional Information:
+
+2015-02-09 14:16:52 [127.0.0.1][-][-][info][application] $_POST = [
+    '_csrf' => 'WW11bVFxZUcaJjksHxcOFW8eMDQ.A1MFajk5KCUaDhJ0BEc1EDotPg=='
+    'LoginForm' => [
+        'username' => 'admin'
+        'password' => '000000'
+        'rememberMe' => '1'
+    ]
+    'login-button' => ''
+]
+
+$_COOKIE = [
+    '_identity' => 'cb4ba1bfc5c24fe876bb2446249f854423533fe522a11f68d9131e5d402c6f8ds:46:\"[2,\"lnYuqLiB6hfARCKN_ik0fsCxHlos5gOV\",2592000]\";'
+    'PHPSESSID' => 'hq536n2fgji4u6kjs1f07d1h72'
+    '_csrf' => 'e66f522a917a9e3d99c2613e32b52cf669645848dc8ef72d931f2a311f5e27e5s:32:\"CKLANfkR6sEYor6B3TLEtkkU-i2XAKHy\";'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/'
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'admin.yii.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '197'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ORIGIN' => 'http://admin.yii.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.95 Safari/537.36'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_REFERER' => 'http://admin.yii.com/site/login'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6,zh-TW;q=0.4'
+    'HTTP_COOKIE' => '_identity=cb4ba1bfc5c24fe876bb2446249f854423533fe522a11f68d9131e5d402c6f8ds%3A46%3A%22%5B2%2C%22lnYuqLiB6hfARCKN_ik0fsCxHlos5gOV%22%2C2592000%5D%22%3B; PHPSESSID=hq536n2fgji4u6kjs1f07d1h72; _csrf=e66f522a917a9e3d99c2613e32b52cf669645848dc8ef72d931f2a311f5e27e5s%3A32%3A%22CKLANfkR6sEYor6B3TLEtkkU-i2XAKHy%22%3B'
+    'PATH' => 'C:\\Program Files\\Common Files\\NetSarang;C:\\Python27\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files\\田客草屋\\桌面录像精灵\\Microsoft.VC80.CRT;C:\\Progra; Files\\田客草屋\\桌面录像精灵\\Microsoft.VC80.MFC;C:\\Python27;C:\\Python27\\Scripts;C:\\xampp\\php;C:\\Documents and Settings\\All Users\\Application Data\\ComposerSetup\\bin;C:\\xampp\\php;C:\\Python27\\Scripts;C:\\Documents and Settings\\Administrator\\Local Settings\\Application Data\\Kingsoft\\WPS Office\\9.1.0.4866\\office6'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Win32) OpenSSL/0.9.8y PHP/5.4.25 Server at admin.yii.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Win32) OpenSSL/0.9.8y PHP/5.4.25'
+    'SERVER_NAME' => 'admin.yii.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'E:/yii/backend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/yii/backend/web'
+    'SERVER_ADMIN' => 'admin@yii.com'
+    'SCRIPT_FILENAME' => 'E:/yii/backend/web/index.php'
+    'REMOTE_PORT' => '2236'
+    'REDIRECT_URL' => '/site/login'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/site/login'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1423462611.953
+    'REQUEST_TIME' => 1423462611
+]
