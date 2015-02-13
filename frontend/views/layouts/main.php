@@ -1,24 +1,23 @@
 <?php
 use yii\helpers\Html;
+
 ?>
 
-<?php $this->beginPage() ?>
 <!DOCTYPE html>
 <html lang="zh-CN">
 <head>
     <title><?= Html::encode($this->title) ?></title>
-    <link href="/css/main.css" type="text/css" rel="stylesheet">
+    <?php if(!empty($this->cssFiles) && is_array($this->cssFiles)): ?>
+        <?php foreach($this->cssFiles as $css): ?>
+            <link href="/css/<?= $css ?>" type="text/css" rel="stylesheet">
+        <?php endforeach ?>
+    <?php endif ?>
 </head>
 <body>
-    <?php $this->beginBody() ?>
-
     <?= $this->render('header') ?>
 
     <?= $content ?>
 
     <?= $this->render('footer') ?>
-    
-    <?php $this->beginBody() ?>
 </body>
 </html>
-<?php $this->endPage() ?>

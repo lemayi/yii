@@ -1393,3 +1393,156 @@ $_SERVER = [
     'REQUEST_TIME_FLOAT' => 1423743739.126
     'REQUEST_TIME' => 1423743739
 ]
+2015-02-13 16:36:00 [127.0.0.1][-][-][error][yii\base\ErrorException:2] exception 'yii\base\ErrorException' with message 'Invalid argument supplied for foreach()' in E:\yii\frontend\views\layouts\main.php:10
+Stack trace:
+#0 E:\yii\frontend\views\layouts\main.php(10): yii\base\ErrorHandler->handleError(2, 'Invalid argumen...', 'E:\yii\frontend...', 10, Array)
+#1 E:\yii\vendor\yiisoft\yii2\base\View.php(325): require('E:\yii\frontend...')
+#2 E:\yii\vendor\yiisoft\yii2\base\View.php(247): yii\base\View->renderPhpFile('E:\yii\frontend...', Array)
+#3 E:\yii\vendor\yiisoft\yii2\base\Controller.php(382): yii\base\View->renderFile('E:\yii\frontend...', Array, Object(frontend\controllers\SiteController))
+#4 E:\yii\vendor\yiisoft\yii2\base\Controller.php(368): yii\base\Controller->renderContent('??<div class="c...')
+#5 E:\yii\frontend\controllers\SiteController.php(90): yii\base\Controller->render('login', Array)
+#6 [internal function]: frontend\controllers\SiteController->actionLogin()
+#7 E:\yii\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#8 E:\yii\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#9 E:\yii\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('login', Array)
+#10 E:\yii\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('site/login', Array)
+#11 E:\yii\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#12 E:\yii\frontend\web\index.php(18): yii\base\Application->run()
+#13 {main}
+2015-02-13 16:36:00 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    'PHPSESSID' => 'i236psamqpabo1l816o3t635k6'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'yii.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 5.1; rv:35.0) Gecko/20100101 Firefox/35.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-cn,zh;q=0.8,en-us;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://yii.com/site/signup'
+    'HTTP_COOKIE' => 'PHPSESSID=i236psamqpabo1l816o3t635k6'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\Program Files\\Common Files\\NetSarang;C:\\Python27\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files\\田客草屋\\桌面录像精灵\\Microsoft.VC80.CRT;C:\\Progra; Files\\田客草屋\\桌面录像精灵\\Microsoft.VC80.MFC;C:\\Python27;C:\\Python27\\Scripts;C:\\xampp\\php;C:\\Documents and Settings\\All Users\\Application Data\\ComposerSetup\\bin;C:\\xampp\\php;C:\\Python27\\Scripts;C:\\Documents and Settings\\Administrator\\Local Settings\\Application Data\\Kingsoft\\WPS Office\\9.1.0.4866\\office6'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Win32) OpenSSL/0.9.8y PHP/5.4.25 Server at yii.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Win32) OpenSSL/0.9.8y PHP/5.4.25'
+    'SERVER_NAME' => 'yii.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'E:/yii/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/yii/frontend/web'
+    'SERVER_ADMIN' => 'admin@yii.com'
+    'SCRIPT_FILENAME' => 'E:/yii/frontend/web/index.php'
+    'REMOTE_PORT' => '2091'
+    'REDIRECT_URL' => '/site/login'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/site/login'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1423816560.031
+    'REQUEST_TIME' => 1423816560
+]
+2015-02-13 16:36:01 [127.0.0.1][-][-][error][yii\base\ErrorException:2] exception 'yii\base\ErrorException' with message 'Invalid argument supplied for foreach()' in E:\yii\frontend\views\layouts\main.php:10
+Stack trace:
+#0 E:\yii\frontend\views\layouts\main.php(10): yii\base\ErrorHandler->handleError(2, 'Invalid argumen...', 'E:\yii\frontend...', 10, Array)
+#1 E:\yii\vendor\yiisoft\yii2\base\View.php(325): require('E:\yii\frontend...')
+#2 E:\yii\vendor\yiisoft\yii2\base\View.php(247): yii\base\View->renderPhpFile('E:\yii\frontend...', Array)
+#3 E:\yii\vendor\yiisoft\yii2\base\Controller.php(382): yii\base\View->renderFile('E:\yii\frontend...', Array, Object(frontend\controllers\SiteController))
+#4 E:\yii\vendor\yiisoft\yii2\base\Controller.php(368): yii\base\Controller->renderContent('??<div class="c...')
+#5 E:\yii\frontend\controllers\SiteController.php(90): yii\base\Controller->render('login', Array)
+#6 [internal function]: frontend\controllers\SiteController->actionLogin()
+#7 E:\yii\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#8 E:\yii\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#9 E:\yii\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('login', Array)
+#10 E:\yii\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('site/login', Array)
+#11 E:\yii\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#12 E:\yii\frontend\web\index.php(18): yii\base\Application->run()
+#13 {main}
+2015-02-13 16:36:01 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    'PHPSESSID' => 'i236psamqpabo1l816o3t635k6'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'yii.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 5.1; rv:35.0) Gecko/20100101 Firefox/35.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-cn,zh;q=0.8,en-us;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://yii.com/site/signup'
+    'HTTP_COOKIE' => 'PHPSESSID=i236psamqpabo1l816o3t635k6'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'PATH' => 'C:\\Program Files\\Common Files\\NetSarang;C:\\Python27\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files\\田客草屋\\桌面录像精灵\\Microsoft.VC80.CRT;C:\\Progra; Files\\田客草屋\\桌面录像精灵\\Microsoft.VC80.MFC;C:\\Python27;C:\\Python27\\Scripts;C:\\xampp\\php;C:\\Documents and Settings\\All Users\\Application Data\\ComposerSetup\\bin;C:\\xampp\\php;C:\\Python27\\Scripts;C:\\Documents and Settings\\Administrator\\Local Settings\\Application Data\\Kingsoft\\WPS Office\\9.1.0.4866\\office6'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Win32) OpenSSL/0.9.8y PHP/5.4.25 Server at yii.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Win32) OpenSSL/0.9.8y PHP/5.4.25'
+    'SERVER_NAME' => 'yii.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'E:/yii/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/yii/frontend/web'
+    'SERVER_ADMIN' => 'admin@yii.com'
+    'SCRIPT_FILENAME' => 'E:/yii/frontend/web/index.php'
+    'REMOTE_PORT' => '2093'
+    'REDIRECT_URL' => '/site/login'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/site/login'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1423816561.609
+    'REQUEST_TIME' => 1423816561
+]

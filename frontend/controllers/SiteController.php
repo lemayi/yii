@@ -67,7 +67,6 @@ class SiteController extends Controller
 
     public function actionIndex()
     {
-        $this->layout = false;
         return $this->render('index');
     }
 
@@ -78,7 +77,6 @@ class SiteController extends Controller
 
     public function actionLogin()
     {
-        $this->layout = false;
         if (!\Yii::$app->user->isGuest) {
             return $this->goHome();
         }
@@ -125,7 +123,6 @@ class SiteController extends Controller
 
     public function actionSignup()
     {
-        $this->layout = false;
         $model = new SignupForm();
         if ($model->load(Yii::$app->request->post())) {
             if ($user = $model->signup()) {

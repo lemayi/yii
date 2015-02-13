@@ -83,10 +83,10 @@ body{
     font-weight: bold;
 }
 .sub-nav{
-    width:1200px;
-    margin: 0 auto;
 }
 .sub-nav ul{
+    margin: 0 auto;
+    width:1200px;
     background-color: #fff;
     box-shadow:3px;
     font-size: 14px;
@@ -103,8 +103,11 @@ body{
     font-weight: bold;
 }
 .container{
-    margin:20px auto;
+}
+.container-box{
+    margin:0 auto;
     width:1200px;
+    padding: 20px 0;
 }
 .container-left{
     float:left;
@@ -150,7 +153,6 @@ body{
     margin-bottom: 5px;
 }
 .item .info{
-    font-size: 12px;
     color:#787878;
 }
 .item .option{
@@ -159,7 +161,6 @@ body{
 .item .option a{
     display:inline;
     color:#999;
-    font-size: 14px;
     margin-right: 20px;
 }
 .option .click{
@@ -222,4 +223,7 @@ body{
     line-height: 60px;
     border-bottom: 1px solid #e3e3e3;
     text-align: center;
+}
+.crumb{
+    
 }
