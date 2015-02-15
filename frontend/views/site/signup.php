@@ -7,7 +7,7 @@ $this->cssFiles = ['site.css', 'account.css'];
 
 <div class="container">
     <div class="container-box cc">
-        <div class="container-left pad20">
+        <div class="container-left">
             <h1>做一个有身份的金球迷</h1>
             <form method="post">
             <div class="account-form">

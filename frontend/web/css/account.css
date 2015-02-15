@@ -46,8 +46,9 @@ form{
     font-size: 16px;
 }
 .account-tips{
-   text-align: right;
+   text-align: center;
    font-size: 14px;
+   margin: 20px 0;
 }
 .account-box{
     text-align: center;
